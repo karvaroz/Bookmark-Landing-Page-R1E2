@@ -1,5 +1,7 @@
 # Reto 1 - Bookmark landing page
 
+- [Despliegue](https://karvaroz.github.io/Bookmark-Landing-Page-R1E2/)
+
 ![Vista previa del diseño para el desafío de codificación de Bookmark Landing Page](./design/desktop-preview.jpg)
 
 ## Bienvenido! 👋
