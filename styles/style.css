@@ -11,7 +11,7 @@ body {
   overflow-x: hidden;
 }
 
-/* Hero section starts here */
+/* MENU NAVEGACION */
 .hero {
   padding: 2rem 7rem;
   min-height: 100vh;
@@ -150,7 +150,7 @@ body {
   display: none;
 }
 
-/* Features section starts here */
+/* SECTION FEATURES */
 .features {
   padding: 1rem 7rem 6rem;
   min-height: 100vh;
@@ -267,7 +267,7 @@ body {
   color: hsl(231, 69%, 60%);
 }
 
-/* Download extension section starts here */
+/* SECTION DOWNLOAD */
 .download {
   padding: 8rem 10rem 2rem;
   min-height: 100vh;
@@ -342,7 +342,7 @@ body {
   color: hsl(231, 69%, 60%);
 }
 
-/* FAQ section starts here */
+/* SECTION PREGUNTAS Y RESPUESTAS */
 .faq {
   padding: 4rem 23rem;
   text-align: center;
@@ -413,7 +413,7 @@ body {
   display: inline-block;
 }
 
-/* Contact Us section starts here */
+/* SECTION FORMULARIO DE CONTACTO */
 .contact {
   padding: 4rem 7rem;
   background: hsl(231, 69%, 60%);
@@ -499,7 +499,7 @@ body {
   font-style: italic;
 }
 
-/* Footer starts here */
+/* SECTION FOOTER */
 footer {
   padding: 1.5rem 7rem;
   background: hsl(229, 31%, 21%);
@@ -565,7 +565,7 @@ footer .attribution a {
   color: hsl(229, 8%, 60%);
 }
 
-/* Responsive design starts here */
+/* RESPONSIVE */
 @media (max-width: 991px) {
   .hero {
     padding: 2rem 1.5rem;
