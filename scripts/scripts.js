@@ -1,10 +1,6 @@
-/* 
-Logic for the FEATURES section that:
-changes the images on clicking a controller
-changes the heading on clicking a controller
-changes the paragraph on clicking a controller
+/*
+SECTION DESLIZANTE
 */
-
 const control = document.getElementsByClassName("control");
 
 const image = document.getElementById("image");
@@ -39,7 +35,9 @@ control[2].onclick = function () {
     "Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.";
 };
 
-// Removes the active class list after clicking another controller
+/*
+QUITAR EL ACTIVE
+*/
 function remove() {
   for (a of control) {
     a.classList.remove("active");
@@ -47,8 +45,7 @@ function remove() {
 }
 
 /*
-Logic for the drop down menu which
-toggles independently of other menus
+MENU MOBILE DROP
 */
 
 const controls = document.getElementsByClassName("text");
@@ -86,48 +83,8 @@ controls[3].onclick = function () {
   }
 };
 
-/*
-Form validation to check if email 
-address is wrongly formatted before 
-submitting. Returns error message when not formatted correctly
-*/
-
-function validateForm() {
-  let email = document.getElementById("email");
-  let alert = document.getElementById("alert");
-  let form = document.getElementById("formbox");
-  let error = document.getElementById("img");
-
-  let pattern =
-    /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9]+(?:\.[a-zA-Z0-9-]+)*$/; // Email address pattern
-
-  if (email.value.match(pattern)) {
-    form.classList.add("valid");
-    form.classList.remove("invalid");
-    email.style.borderTop = "2px solid hsl(231, 69%, 60%)";
-    email.style.borderLeft = "2px solid hsl(231, 69%, 60%)";
-    email.style.borderRight = "2px solid hsl(231, 69%, 60%)";
-    email.style.borderBottom = "25px solid hsl(231, 69%, 60%)";
-    alert.innerHTML = " ";
-    error.style.opacity = "0";
-    document.getElementById("formbox").reset(); // Resets form - input field after successful submission
-    return true;
-  } else {
-    form.classList.remove("valid");
-    form.classList.add("invalid");
-    email.style.borderTop = "2px solid hsl(0, 94%, 66%)";
-    email.style.borderLeft = "2px solid hsl(0, 94%, 66%)";
-    email.style.borderRight = "2px solid hsl(0, 94%, 66%)";
-    email.style.borderBottom = "25px solid hsl(0, 94%, 66%)";
-    alert.innerHTML = "Whoops, make sure it's an email";
-    error.style.opacity = "1";
-    return false;
-  }
-}
-
 /* 
-Mobile Navigation, navigation logo 
-and hamburger menu toggle 
+MENU HAMBURGER
 */
 
 const menu = document.getElementById("mobileNav");
