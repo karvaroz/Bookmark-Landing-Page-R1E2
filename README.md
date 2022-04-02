@@ -1,6 +1,6 @@
 # Reto 1 - Bookmark landing page
 
-- [Despliegue](https://karvaroz.github.io/Bookmark-Landing-Page-R1E2/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b81d6961-70e0-4141-a871-224ce4ac8bfa/deploy-status)](https://app.netlify.com/sites/reto-1-karvaroz/deploys)
 
 ![Vista previa del diseño para el desafío de codificación de Bookmark Landing Page](./design/desktop-preview.jpg)
 
