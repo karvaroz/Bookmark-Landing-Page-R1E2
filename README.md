@@ -1,5 +1,7 @@
 # Reto 1 - Bookmark landing page
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b81d6961-70e0-4141-a871-224ce4ac8bfa/deploy-status)](https://reto-1-karvaroz.netlify.app/)
+
 ![Vista previa del diseño para el desafío de codificación de Bookmark Landing Page](./design/desktop-preview.jpg)
 
 ## Bienvenido! 👋
